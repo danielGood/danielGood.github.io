@@ -1,0 +1,41 @@
+body {
+
+
+       max-width: 800px;
+       background-color: #eeeeee;
+       margin: 0px auto;
+
+       padding: 0px 0px;
+
+    }
+
+
+    section{
+        height: 100vh;
+        padding: 50px 10px;
+        margin: 0px 0px;
+        background-color: white;
+
+    }
+
+    aside {
+        
+        padding: 0px 0px;
+        margin: 0px 0px 0px 0px;
+        
+        width: 100%;
+        min-height: 80px;
+        
+	background-color: black;
+
+
+    }
+
+    aside a {
+	color : white;
+        display: block;
+        padding: 25px 5px;
+	text-align: center;
+	
+
+    }
