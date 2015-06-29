@@ -31,7 +31,23 @@
 <a id="ray-cast-lighting-program" class="anchor" href="#ray-cast-lighting-program" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://github.com/danielGood/raycast">Ray Cast Lighting Program</a>
 </h3>
 
-<p><img src="images/rls1.png" alt=""></p>
+<p><img src="images/rls1.png" alt="">
+Ray Casting Algorithm</p>
+
+<ol>
+<li>A ray can be represented with a point and a vector.  The point is the origin of the ray, and the vector represents the angle and maximum distance.</li>
+<li>Set the initial maximum distance for the ray, and the initial maximum distance point.
+3.Iterate through all objects that need to be tested for intersection.</li>
+<li>   Check for intersection between the ray and the object
+
+<ol>
+<li>   If there is an intersection between the ray and the object, get the distance to the origin</li>
+<li>  If the new distance to the origin is smaller than the recorded one record it and the point of intersection.</li>
+</ol>
+</li>
+<li>   return intersection point<br>
+</li>
+</ol>
       </section>
     </div>
 
