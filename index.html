@@ -32,6 +32,7 @@
      This is something I continually aspire to.  Computer Gaming is a big source of inspiration for me, and in line with this I have studied 
      A.I. and Computer Graphics.  Right now I am working with JavaScript and Angular 2, and in the past I have worked with Java.
 
+<<<<<<< HEAD
 
      </p>
 
@@ -39,6 +40,28 @@
 	   <h3>Projects</h3>
 
       <p>Last Updated: 1/14/16</p>
+=======
+<p><img src="images/rls1.png" alt="">
+Ray Casting Algorithm
+This algorithm returns the first intersection in a ray.  It can be used for rendering and lighting.  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/A_basic_ray-caster">3d raycast world</a>.  Ray tracers, a variant of ray casting, are used to render high quality objects.  I will be using it in 2D to create lighting program.</p>
+
+<ol>
+<li>A ray can be represented with a point and a vector.  The point is the origin of the ray, and the vector represents the angle and maximum distance.</li>
+<li>Set the initial maximum distance for the ray, and the initial maximum distance point.</li>
+<li>Iterate through all objects that need to be tested for intersection.</li>
+<li>   Check for intersection between the ray and the object
+
+<ol>
+<li>   If there is an intersection between the ray and the object, get the distance to the origin</li>
+<li>  If the new distance to the origin is smaller than the recorded one record it and the point of intersection.</li>
+</ol>
+</li>
+<li>   return intersection point<br>
+</li>
+</ol>
+
+<p>Variants: Use Octrees</p>
+>>>>>>> origin/master
       </section>
     </div>
 
